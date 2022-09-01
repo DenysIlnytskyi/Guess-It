@@ -21,6 +21,7 @@
 		869B884B28C144D50034C916 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869B884A28C144D50034C916 /* ExtensionDelegate.swift */; };
 		869B884D28C144D50034C916 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869B884C28C144D50034C916 /* ComplicationController.swift */; };
 		869B884F28C144D60034C916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869B884E28C144D60034C916 /* Assets.xcassets */; };
+		869B885F28C149670034C916 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869B885E28C149670034C916 /* FilmModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		869B884C28C144D50034C916 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		869B884E28C144D60034C916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		869B885028C144D60034C916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869B885E28C149670034C916 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				869B884828C144D50034C916 /* InterfaceController.swift */,
+				869B885E28C149670034C916 /* FilmModel.swift */,
 				869B884A28C144D50034C916 /* ExtensionDelegate.swift */,
 				869B884C28C144D50034C916 /* ComplicationController.swift */,
 				869B884E28C144D60034C916 /* Assets.xcassets */,
@@ -303,6 +306,7 @@
 				869B884B28C144D50034C916 /* ExtensionDelegate.swift in Sources */,
 				869B884928C144D50034C916 /* InterfaceController.swift in Sources */,
 				869B884D28C144D50034C916 /* ComplicationController.swift in Sources */,
+				869B885F28C149670034C916 /* FilmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +591,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -600,7 +605,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -617,6 +622,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -630,7 +636,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
